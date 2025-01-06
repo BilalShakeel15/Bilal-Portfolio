@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Bilal-Portfolio/static/css/main.4819bd97.css",
+    "main.js": "/Bilal-Portfolio/static/js/main.1fe0b0b8.js",
+    "static/js/156.76d4ed6a.chunk.js": "/Bilal-Portfolio/static/js/156.76d4ed6a.chunk.js",
+    "static/media/palate.jpg": "/Bilal-Portfolio/static/media/palate.581d04f0697cbd9a7c16.jpg",
+    "static/media/byteblog.jpg": "/Bilal-Portfolio/static/media/byteblog.0813496631c22458660b.jpg",
+    "static/media/newsapp.jpg": "/Bilal-Portfolio/static/media/newsapp.5d89f1e2d9c6ce6e2892.jpg",
+    "static/media/bs logo.png": "/Bilal-Portfolio/static/media/bs logo.6dd9ecc358c48712deb4.png",
+    "static/media/React.png": "/Bilal-Portfolio/static/media/React.4b6f7a459ebd1bdfd120.png",
+    "static/media/bootstrap.png": "/Bilal-Portfolio/static/media/bootstrap.d5210cdeab1bc94309c4.png",
+    "static/media/Bilal Shakeel Resume.pdf": "/Bilal-Portfolio/static/media/Bilal Shakeel Resume.bce095c79c93035eed5d.pdf",
+    "static/media/Bodejs.png": "/Bilal-Portfolio/static/media/Bodejs.556604b84e4e299abbb4.png",
+    "static/media/currency.jpg": "/Bilal-Portfolio/static/media/currency.763bc65ec839da2c5e59.jpg",
+    "static/media/Quiz app.jpg": "/Bilal-Portfolio/static/media/Quiz app.36e45861e37469128598.jpg",
+    "static/media/My pic.jpg": "/Bilal-Portfolio/static/media/My pic.456226cab79ff5011d87.jpg",
+    "static/media/sql.png": "/Bilal-Portfolio/static/media/sql.e10b540b6924da3831f5.png",
+    "static/media/csharp.png": "/Bilal-Portfolio/static/media/csharp.4a32f53d425c7ad4cb05.png",
+    "static/media/Html.jpg": "/Bilal-Portfolio/static/media/Html.def01fa662943d7e8d7b.jpg",
+    "static/media/dotnet.png": "/Bilal-Portfolio/static/media/dotnet.b26e99f1a77900073eb7.png",
+    "static/media/mealymoore.png": "/Bilal-Portfolio/static/media/mealymoore.91bf5286289ed975b1dd.png",
+    "static/media/css3.png": "/Bilal-Portfolio/static/media/css3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/Bilal-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Bilal-Portfolio/index.html",
+    "main.4819bd97.css.map": "/Bilal-Portfolio/static/css/main.4819bd97.css.map",
+    "main.1fe0b0b8.js.map": "/Bilal-Portfolio/static/js/main.1fe0b0b8.js.map",
+    "156.76d4ed6a.chunk.js.map": "/Bilal-Portfolio/static/js/156.76d4ed6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4819bd97.css",
+    "static/js/main.1fe0b0b8.js"
+  ]
+}

@@ -1,0 +1,5 @@
+.foot:hover{
+    background-color: #112240;
+    box-shadow: 0 4px 8px rgba(11, 198, 212, 0.3), 0 6px 20px rgba(11, 198, 212, 0.15);
+    border: 2px solid #0bc6d4;
+}

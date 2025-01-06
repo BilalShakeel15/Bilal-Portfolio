@@ -1,0 +1,129 @@
+.contact-section {
+    background-color: #141313;
+    padding: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0bc6d4;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-form .input-group  {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact-form .input-group::placeholder{
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 1rem;
+    background-color: #112240;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+    box-shadow: 0 4px 8px rgba(11, 198, 212, 0.3), 0 6px 20px rgba(11, 198, 212, 0.15);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 2px solid #0bc6d4;
+}
+
+.contact-form input {
+    width: 45%; /* Adjust width to fit 2 inputs in a row */
+    color: white;
+}
+
+.contact-form textarea {
+    width: 45%; /* Make textarea larger */
+    min-height: 150px; /* Increase the height for better visibility */
+}
+
+.submit-btn {
+    background-color: transparent;
+    color: rgb(247, 247, 247);
+    border: 2px solid #0bc6d4;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+    width: 45%;
+}
+
+.submit-btn:hover {
+    background-color: #0bc6d4;
+  box-shadow: 0 0px 10px 10px rgba(11, 198, 212, 0.3);
+  color: black;
+}
+
+.thank-you-message {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #0bc6d4;
+    animation: fadeOut 3s ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-section {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-form .input-group {
+        flex-direction: column; /* Stack inputs vertically on smaller screens */
+        align-items: stretch;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .submit-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}

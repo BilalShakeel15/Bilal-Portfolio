@@ -1,0 +1,73 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* About Me Section */
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #141313;
+    color: #e4dddd;
+    min-height: 60vh;
+    width: 100%; /* Ensure full width without overflow */
+    overflow: hidden; /* Prevent accidental overflow */
+}
+
+/* About Me Heading */
+.aboutme-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#0bc6d4;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #0bc6d4;
+    display: inline-block;
+    transform: translateX(-150%); /* Start far outside the viewport */
+    opacity: 0;
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.aboutme-heading.visible {
+    transform: translateX(0); /* Slide into place */
+    opacity: 1; /* Fade in */
+}
+
+/* About Me Text */
+.aboutme-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f4f1f1;
+    transform: translateX(150%); /* Start far outside the viewport */
+    opacity: 0;
+    transition: transform 0.6s ease-out 0.2s, opacity 0.6s ease-out 0.2s; /* Delay for smoother animation */
+}
+
+.aboutme-text.visible {
+    transform: translateX(0); /* Slide into place */
+    opacity: 1; /* Fade in */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .aboutme-heading {
+        font-size: 2rem;
+    }
+
+    .aboutme-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}

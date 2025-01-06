@@ -1,0 +1,181 @@
+/* Container and Grid Layout */
+.projects-container {
+    padding: 2rem;
+    background-color: #141313;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#0bc6d4;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* Project Box */
+.project-box {
+    background-color: #112240;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(11, 198, 212, 0.3), 0 6px 20px rgba(11, 198, 212, 0.15);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+    color: white;
+}
+.project-box:hover{
+    border: 2px solid #0bc6d4;
+    transform: scale(1.05);
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+}
+
+.project-thumb {
+    width: 100%;
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Optional: Adds a background in case an image doesn't load */
+    color: white;
+}
+
+
+.project-title {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #a19595;
+}
+
+.tech-used {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 1rem 0;
+}
+
+.tech-item {
+    background-color: #0bc6d4;
+    color: #000000;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+}
+
+/* Button */
+.view-details-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgb(75, 70, 70);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0.5rem;
+}
+
+.view-details-btn:hover {
+    background-color: #0bc6d4;
+  box-shadow: 0 0px 10px 10px rgba(11, 198, 212, 0.3);
+}
+
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #112240;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.modal-description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-video {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.close-btn {
+    background: #5fe4e7;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background: #d9534f;
+}
+
+.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.5s ease-out;
+    will-change: transform, opacity;
+}
+
+.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    .view-details-btn{
+        margin-bottom: 0.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }

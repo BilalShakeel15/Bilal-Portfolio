@@ -118,6 +118,8 @@
     border-radius: 8px;
     width: 80%;
     max-width: 600px;
+    max-height: 80%; /* Ensures the modal doesn't exceed 80% of the viewport height */
+    overflow-y: auto; /* Enables scrolling for overflow content */
     text-align: center;
     position: relative;
 }
@@ -147,6 +149,11 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.close-btn:hover {
+    background: #d9534f;
+}
+
 
 .close-btn:hover {
     background: #d9534f;
